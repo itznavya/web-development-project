@@ -1,0 +1,290 @@
+body{
+    margin-top: 0px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header {
+        padding-left:10px;
+        background-color: #66bfbf;
+        height: 125px;
+        background-image: url(logo.jpeg.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 5em;
+        margin-right: 5em;		
+}
+h1 {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 3em;
+}
+
+main h2{
+    font-size: 3em;
+    font-family: 'klee one';
+    text-align: center;
+    font-weight: 200;
+}
+main h3{
+    font-size: 1.7em;
+    margin-top: 50px;
+    font-family: 'Racing Sans One', cursive;
+}
+
+main p{
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-size: large;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+nav { 
+    padding: 10px;
+    background-color: #66bfbf;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 5em;
+    margin-right: 5em;	
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    padding-left: 50px;
+    font-size: 1.2em;
+}
+
+nav a { text-decoration: none; }
+
+nav li a:hover{
+    background-color: #01004f;
+    color: #ffffff;
+    padding: 7px;
+    border: 1px solid white;
+}
+main { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+	padding-bottom: 2em;
+    padding-top: 10px;
+    background-color: #e7f6f2;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+main ul{
+    list-style-type: disc;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+main ul li{
+    padding-top:10px;
+    font-size: 1.3em;
+    font-family: 'Balsamiq Sans', cursive;
+    padding-left: 20px;
+}
+footer { background-color: #66bfbf;
+       font-size: 0.75em;
+	   font-style: italic;
+	   text-align: center;
+       margin-left: 6.5em;
+       margin-right: 6.5em;	
+       font-family: 'Balsamiq Sans', cursive;
+}
+
+#quote{
+    font-size: 4em;
+    font-family: 'Balsamiq Sans', cursive;
+    font-style: oblique;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+nav a:link{ color: #000000}
+
+nav a:visited{ color: #35299c }
+
+nav a:link{ color: #000000}
+
+head, nav, main,footer{
+    display: block;
+}
+
+#howtouse{
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    background-color: #66bfbf;
+    padding: 5px;
+}
+
+#moblie{ display: none;}
+#desktop{ display: inline;}
+
+@media only screen and (max-width:1024px) {
+    body{ margin: 0;}
+    header{ border-bottom: 5px solid #8cbbd2;}
+    h1{ margin-top: 0; margin-bottom: 1em; padding-top: 1em; padding-bottom: 1em; font-size: 1.5em; background-size: cover;}
+    nav{float: none; width: auto; padding-top: 0; margin: 10px; font-size: 1.3em;}
+    nav li{ display: inline-block;}
+    nav a{ padding: 1em; width: 8em; font-weight: bold; border-style: none;}
+    nav ul{ padding: 0; margin: 0;}
+    main{ padding: 0; margin: 0; font-size: 90%;}
+}
+@media only screen and (max-width:768px) {
+    header{ background-image: url(logo.jpg); height: 80px; background-size: contain; margin: 0px;}
+    h1{ font-size: 1em; text-align: center; padding-left: 0;}
+    nav{ margin: 0;}
+    nav a{ display: block; padding: 0.2em; width: auto; border: 1px #000000;}
+    nav li{ display: block;}
+    nav li a{border:1px #000000;}
+    main{ padding-top: 1px;}
+    h2{ padding-top: 0.5em; padding-right: 0; padding-bottom: 0; padding-left: 0.5em; margin-right: 0.5em;}
+    #mobile{display: inline;}
+    #desktop{display:none;}
+    .decoration{width: auto; height: auto; background-size: contain; }
+    img{background-image: none; height: 100px; width: 100px;}
+    .btn{width: 15px; height: 15px;}
+}
+table{
+    margin-top: 50px;
+    width: 90%;
+    border-spacing: 0;
+    background-color: #8cbbd2;
+    margin-bottom: 25px;
+}
+
+td, th
+{
+padding: 15px;
+}
+th{
+    margin-left: 200px;
+}
+
+tr:nth-of-type(odd){
+    background-color: #52a0c1;
+}
+
+form{
+    padding: 6em;
+    font-family: 'Merriweather', serif;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: left;
+    width: 10em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+input, textarea{
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 2em;
+}
+hr{
+    border: dotted  #000000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 75px auto;
+}
+.decoration{
+    float:center;
+}
+#description{
+    font-size: 4em;
+    margin-left: 40px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Georgia;
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #141617 1px;
+    text-decoration: none;
+    width: 30px;
+    transition: transform .75s;
+  }
+  
+  .btn:hover {
+    background: #307991;
+    text-decoration: none;
+    transform: scale(1.2);
+  }
+
+ol{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.5em;
+}
+ol li{
+    padding: 10px;
+}
+.submit {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1cb3d9;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    background: #fc3c3c;
+    text-decoration: none;
+  }
+
+   .image{
+     opacity: 0.85;
+     transition: transform .75s;
+   }
+
+   .image:hover{
+    opacity: 1.3;
+    transform: scale(1.25);
+   }
+
+   input[type=text] {
+    border: 2px solid #1cb3d9;
+    border-radius: 4px;
+  }
+
+  textarea {
+    border: 2px solid #1cb3d9;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+select{
+    border: 2px solid ;
+    border-radius: 4px;
+    width: 300px;
+    height: 35px;
+    border-color:#1cb3d9 ;
+}
+
+
